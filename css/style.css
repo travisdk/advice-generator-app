@@ -82,6 +82,12 @@ body {
   cursor: pointer;
 }
 
+.advice__dice-btn.disabled {
+  cursor: none;
+  pointer-events: none;
+  filter: grayscale(100%);
+}
+
 .attribution {
   text-align: center;
   color: var(--grayish-blue);
@@ -101,13 +107,18 @@ body {
     margin: 0;
     max-width: 40%;
   }
+
   .advice__dice-btn:hover,
   .advice__dice-btn:focus {
     box-shadow: 0 0 14px var(--neon-green);
   }
-}
+  .advice__dice-btn.disabled:hover,
+  .advice__dice-btn.disabled:hover {
+    box-shadow: unset;
+  }
 
-.attribution {
-  position: absolute;
-  bottom: 1em;
+  .attribution {
+    position: absolute;
+    bottom: 1em;
+  }
 }
