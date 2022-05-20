@@ -24,8 +24,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/travisdk/advice-generator-app]
-- Live Site URL: [https://travisdk.github.io/advice-generator-app/]
+- Solution URL: [Advice Gen App github repo](https://github.com/travisdk/advice-generator-app)
+- Live Site URL: [Advice Gen App](https://travisdk.github.io/advice-generator-app/)
 
 ## My process
 
