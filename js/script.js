@@ -3,7 +3,10 @@ const MIN_DELAY =
   2 * 1000; /* delay needed before next advice can be loaded in millisecs */
 
 const getData = async () => {
-  const response = await fetch(ADVICEGEN_API_URL);
+  console.log("GetData called");
+  const response = await fetch(
+    ADVICEGEN_API_URL + `?timestamp=${new Date().getTime()}`
+  );
   const advice = await response.json();
   updatePage(advice.slip);
 };
